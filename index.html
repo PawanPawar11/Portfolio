@@ -323,17 +323,22 @@
             I'd love to hear from you! If you have any questions, comments or feedback, please use the form below.
         </p>
 
-        <form action="" class="max-w-2xl mx-auto">
+        <form action="https://api.web3forms.com/submit" method="POST" class="max-w-2xl mx-auto">
+
+            <input type="hidden" name="access_key" value="c61bf8f1-6172-4a2e-be1b-731684d2e126">
+
             <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
                 <input type="text" placeholder="Enter your name"
-                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90">
+                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
+                    name="name" required>
 
                 <input type="email" placeholder="Enter your email"
-                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90">
+                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
+                    name="email" required>
             </div>
             <textarea rows="6" placeholder="Enter your message"
-                class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90">
-            </textarea>
+                class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90"
+                name="message" required></textarea>
             <button
                 class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black dark:bg-transparent dark:hover:bg-darkHover dark:border-[0.5px]">
                 Submit Now
