@@ -14,6 +14,7 @@ tailwind.config = {
       colors: {
         lightHover: "#fcf4ff",
         darkHover: "#2a004a",
+        darkTheme: "#11001F",
         clifford: "#da373d",
       },
       boxShadow: {
@@ -22,4 +23,6 @@ tailwind.config = {
       },
     },
   },
+
+  darkMode: "selector",
 };
