@@ -48,6 +48,8 @@ window.addEventListener("scroll", () => {
   }
 });
 
+//  I don't think I'll ever need the below commented line of code, but I'm putting it just in case if the dark mode gets broken in future, then it will be because of commenting out the below code.
+
 // document.documentElement.classList.toggle(
 //   "dark",
 //   localStorage.theme === "dark" ||
